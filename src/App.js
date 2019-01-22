@@ -18,6 +18,7 @@ import Header from './components/Header'
 import HomePage from './components/HomePage'
 import AccountsPage from './components/AccountsPage'
 import InformationPage from './components/InformationPage'
+import EosPage from './components/EosPage'
 
 // Config 
 import config from './config'
@@ -118,6 +119,11 @@ class App extends Component {
         { page === PAGES.ACCOUNTS ? (
           <div className={classes.accounts}>
             <AccountsPage />
+          </div>
+        ): ("")}
+        { page === PAGES.EOS ? (
+          <div className={classes.eos}>
+            <EosPage />
           </div>
         ): ("")}
       </div>

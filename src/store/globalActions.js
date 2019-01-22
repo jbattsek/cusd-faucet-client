@@ -8,7 +8,8 @@ export const TYPES = {
 export const PAGES = {
   MAIN: 0,
   ACCOUNTS: 1,
-  INFO: 2
+  INFO: 2,
+  EOS: 3
 }
 
 export const globalActions = {
